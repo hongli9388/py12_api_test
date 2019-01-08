@@ -1,0 +1,72 @@
+2019-01-05 11:03:30,879-ERROR-mylogger1.py-yuxuan-日志信息:出错了,20106 != 10001
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_add.py", line 46, in test_add
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20106 != 10001
+2019-01-05 11:03:33,173-ERROR-mylogger1.py-yuxuan-日志信息:出错了20204 != 20206
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_audit.py", line 44, in test_audit
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20204 != 20206
+2019-01-05 11:03:34,709-ERROR-mylogger1.py-yuxuan-日志信息:出错了30203 != 30002
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_get_Loan_investrecoed.py", line 51, in test_get_Loan_invest_record
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 30203 != 30002
+2019-01-05 11:03:36,699-ERROR-mylogger1.py-yuxuan-日志信息:出错了，11005 != 11009
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_invest.py", line 54, in test_invest
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 11005 != 11009
+2019-01-05 11:03:37,424-ERROR-mylogger1.py-yuxuan-日志信息:出错了，11011 != 11010
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_invest.py", line 54, in test_invest
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 11011 != 11010
+2019-01-05 11:03:37,852-ERROR-mylogger1.py-yuxuan-日志信息:出错了，20103 != 10001
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_invest.py", line 54, in test_invest
+    self.assertEqual(case.expected,int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20103 != 10001
+2019-01-05 11:03:43,533-ERROR-mylogger1.py-yuxuan-日志信息:断言出错了20103 != 10001:
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(case.expected, int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20103 != 10001
+2019-01-05 11:03:43,612-ERROR-mylogger1.py-yuxuan-日志信息:断言出错了20103 != 20115:
+Traceback (most recent call last):
+  File "E:\pycharm_home\python12_api_test\testcases\test_recharge.py", line 63, in test_recharge
+    self.assertEqual(case.expected, int(resp.get_json()['code']))
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20103 != 20115

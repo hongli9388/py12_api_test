@@ -1,0 +1,4 @@
+2018-12-16 22:18:53,203-INFO-mylogger.py-yuxuan-日志信息:这个是个info信息
+2018-12-16 22:18:53,209-ERROR-mylogger.py-yuxuan-日志信息:这个是个error信息
+2018-12-16 22:18:53,210-WARNING-mylogger.py-yuxuan-日志信息:这个是个waring信息
+2018-12-16 22:18:53,212-CRITICAL-mylogger.py-yuxuan-日志信息:这个是个critical信息
